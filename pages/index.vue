@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <AppNavbar />
 </template>
 
 <script>
