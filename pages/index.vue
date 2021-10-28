@@ -1,5 +1,8 @@
 <template>
-  <AppNavbar />
+  <div>
+    <AppNavbar />
+    <AppMain />
+  </div>
 </template>
 
 <script>
