@@ -5,7 +5,7 @@
 
 <script>
 export default {
-    props: ["text", "customClasses", "alt"]
+    props: ["text", "customClasses"]
 
 }
 </script>
