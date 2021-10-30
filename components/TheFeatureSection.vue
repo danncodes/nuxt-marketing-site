@@ -1,0 +1,31 @@
+<template>
+  <main class="w-full flex justify-center items-center font-montserrat">
+
+      <section class="lg:w-10/12 flex flex-col items-center">
+      
+        <!-- Feature Text -->
+        <div class="text-center p-8 md:text-left max-w-sm md:max-w-md mx-auto md:mx-0 duration-1000">
+            <h2 class="text-center font-semibold text-2xl sm:text-3xl md:text-4xl text-theme-primary mb-3">Better Strategy<br/>With Quality Business</h2>
+            <p class="text-center text-theme-secondary text-sm">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+
+        <!-- Feature Cards -->
+        <div class="w-full px-9 mb-14 flex flex-col lg:flex-row lg:gap-7 items-center lg:justify-around">
+            <FeatureCard text="Investment Trading"/>
+            <FeatureCard text="Support On Raising Funds"/>
+            <FeatureCard text="Financial Analysis"/>
+        </div>
+      </section>
+
+  </main>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>

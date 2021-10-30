@@ -1,7 +1,14 @@
 <template>
   <div>
+    <!--  THE NAVBAR  -->
     <AppNavbar />
-    <AppMain />
+
+    <!--  THE MAIN SECTION  -->
+    <TheMainSection />
+
+    <!--  THE FEATURE SECTION  -->
+    <TheFeatureSection />
+
   </div>
 </template>
 
