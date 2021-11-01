@@ -12,6 +12,9 @@
     <!-- THE CLIENT FEEDBACK SECTION -->
     <TheFeedbackSection />
 
+    <!-- THE PROJECTS SECTION -->
+    <TheProjectSection />
+
   </div>
 </template>
 
