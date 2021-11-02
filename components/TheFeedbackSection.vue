@@ -10,7 +10,7 @@
         </div>
 
         <!-- Feedback Cards -->
-        <div class="w-full px-9 mb-14 flex flex-col lg:flex-row lg:gap-7 items-center lg:justify-around max-w-7xl">
+        <div class="w-full px-2 mb-14 flex flex-col lg:flex-row lg:gap-7 items-center lg:justify-around max-w-7xl">
             <FeedbackCard :person="{name: 'Regina Miles', jobTitle:'Designer', feedback:'Slate helps you see how many more days you need to work to reach your financial goal.', image: require('../assets/user.png')}"/>
             <FeedbackCard :person="{name: 'Joe King', jobTitle:'Consultant', feedback:'Slate helps you see how many more days you need to work to reach your financial goal.', image: require('../assets/user2.png')}"/>
             <FeedbackCard :person="{name: 'Janet Vue', jobTitle:'Developer', feedback:'Slate helps you see how many more days you need to work to reach your financial goal.', image: require('../assets/user3.png')}"/>

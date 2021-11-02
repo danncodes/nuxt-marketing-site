@@ -15,6 +15,9 @@
     <!-- THE PROJECTS SECTION -->
     <TheProjectSection />
 
+    <!-- THE PRICING SECTION -->
+    <ThePricingSection />
+
   </div>
 </template>
 
