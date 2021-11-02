@@ -1,5 +1,5 @@
 <template>
-<section class="relative font-montserrat flex flex-col p-10 items-center w-full max-w-xs bg-white shadow rounded-md border-2 border-[#DEDEDE] h-full hover:shadow-lg duration-500 hover:border-[#23A6F0]">
+<section class="relative font-montserrat flex flex-col my-2 p-10 items-center w-full max-w-xs bg-white shadow rounded-md border-2 border-[#DEDEDE] h-full hover:shadow-lg duration-500 hover:border-[#23A6F0]">
 
     <!-- Product Sticker -->
     <div class="h-20 w-20 bg-[#E77C40] rounded-full flex justify-center items-center absolute -top-8 right-4 shadow-xl" v-if="product.new">
