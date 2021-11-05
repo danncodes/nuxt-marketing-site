@@ -20,6 +20,11 @@
 
     <!-- THE NEWSLETTER SECTION -->
     <TheNewsletterSection />
+    
+    <!-- THE FOOTER SECTION -->
+    <TheFooterSection />
+
+
 
   </div>
 </template>
