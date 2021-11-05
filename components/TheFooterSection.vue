@@ -3,7 +3,7 @@
 
       <section class="grid grid-rows-4 grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 
       md:grid-cols-4 md:grid-rows-1 w-full md:justify-items-center
-       max-w-4xl lg:max-w-6xl gap-3 p-16 sm:p-6">
+       max-w-4xl lg:max-w-6xl gap-3 p-16">
 
           <ul class="max-w-[160px]">
 

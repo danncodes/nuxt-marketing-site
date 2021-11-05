@@ -1,6 +1,6 @@
 <template>
 <!-- Container -->
-  <main class="bg-white w-full mt-32 lg:mt-0 font-montserrat md:flex justify-center items-center">
+  <main class="bg-[#FAFAFA] w-full mt-32 lg:mt-0 font-montserrat md:flex justify-center items-center">
 
       <!-- Content Section -->
       <section class="flex flex-col items-center lg:my-24 md:flex-row md:justify-center">
@@ -21,7 +21,7 @@
 
         <!-- Background Image -->
         <div class="h-96 w-full pt-0 flex justify-center items-center p-3 max-w-xs md:max-w-md duration-1000">
-          <img src="../assets/bg.jpg" alt="">
+          <img src="../assets/bg.png" alt="">
         </div>
 
       </section>
