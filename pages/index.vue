@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--  THE NAVBAR  -->
-    <!-- <AppNavbar /> -->
+    <AppNavbar />
 
     <!--  THE MAIN SECTION  -->
     <TheMainSection />
