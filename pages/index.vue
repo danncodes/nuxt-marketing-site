@@ -18,6 +18,9 @@
     <!-- THE PRICING SECTION -->
     <ThePricingSection />
 
+    <!-- THE NEWSLETTER SECTION -->
+    <TheNewsletterSection />
+
   </div>
 </template>
 
