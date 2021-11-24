@@ -11,9 +11,7 @@
 
         <!-- Feature Cards -->
         <div class="w-full px-9 mb-14 flex flex-col lg:flex-row lg:gap-7 items-center lg:justify-around max-w-7xl">
-            <FeatureCard text="Investment Trading"/>
-            <FeatureCard text="Support On Raising Funds"/>
-            <FeatureCard text="Financial Analysis"/>
+            <FeatureCard :text="card.text" v-for="card in featureCards" :key="card.id" class="card"/>
         </div>
       </section>
 
@@ -22,7 +20,15 @@
 
 <script>
 export default {
-
+  data(){
+    return {
+      featureCards: [{id: 1, text: "Investment Trading"}, { id: 2, text: "Support On Raising Funds"}, {id: 3, text: "Financial Analysis"}]
+    }
+  },
+  mounted(){
+    const tl = gsap.timeline()
+    tl.from(".card", {duration: 1, stagger: 0.5, delay: .5,  ease: 'power1.in', y: '30px', opacity : 0})
+  }
 }
 </script>
 

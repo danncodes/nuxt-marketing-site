@@ -1,10 +1,10 @@
 <template>
   <div>
     <!--  THE NAVBAR  -->
-    <AppNavbar />
+    <AppNavbar/>
 
     <!--  THE MAIN SECTION  -->
-    <TheMainSection />
+    <TheMainSection id="Main"/>
 
     <!--  THE FEATURE SECTION  -->
     <TheFeatureSection />
@@ -30,5 +30,7 @@
 </template>
 
 <script>
-export default {}
+export default {
+  
+}
 </script>
