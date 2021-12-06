@@ -22,15 +22,14 @@
         </a>
       </ul>
 
-      <ul class="h-full hidden lg:flex items-center gap-8">
-        <li class="font-semibold text-[#23A6F0]">Login</li>
+      <a class="h-full hidden lg:flex items-center gap-8" href="#Contact">
         <AppButton text="Become a member" icon="fas fa-arrow-right"/>
-      </ul>
+      </a>
 
 
   </header>
   <!-- Mobile -->
-    <TheMobileNav class="duration-500" :class="!mobileNav ? '-translate-x-full' : 'translate-x-0'" />
+    <TheMobileNav class="duration-500" :class="!mobileNav ? '-translate-x-full' : 'translate-x-0'" @navigate="mobileNav = false"/>
 </main>
 </template>
 
