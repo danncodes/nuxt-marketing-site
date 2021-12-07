@@ -1,5 +1,5 @@
 <template>
-<main class="nav lg:bg-[#F6F6F6] fixed top-0 lg:static w-full shadow font-montserrat z-50">
+<main class="lg:bg-[#F6F6F6] fixed top-0 lg:static w-full shadow font-montserrat z-50">
   <header class="h-14 lg:h-24 mx-auto p-9 flex bg-[#F6F6F6] justify-between items-center max-w-7xl">
 
     <!-- Logo/Hamburger Menu and Close Icon -->
@@ -42,10 +42,6 @@ export default {
       mobileNav: false
     }
   },
-  mounted(){
-    const tl = gsap.timeline()
-    tl.from(".nav", {duration: 1.5, y: '-100%', ease: 'bounce'})
-  }
 }
 </script>
 
