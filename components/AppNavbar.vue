@@ -3,7 +3,8 @@
   <header class="h-14 lg:h-24 mx-auto p-9 flex bg-[#F6F6F6] justify-between items-center max-w-7xl">
 
     <!-- Logo/Hamburger Menu and Close Icon -->
-      <h1 class="text-2xl text-theme-primary font-semibold">BrandName</h1>
+      <!-- <h1 class="text-2xl text-theme-primary font-semibold">BrandName</h1> -->
+      <img src="../assets/fin8cex.png" class="h-14 lg:h-24 object-cover" alt="">
       <i class="fas fa-bars cursor-pointer text-2xl text-theme-secondary lg:hidden" @click="mobileNav = !mobileNav" v-if="!mobileNav"></i>
       <i class="fas fa-times cursor-pointer text-2xl text-theme-secondary lg:hidden" @click="mobileNav = !mobileNav" v-if="mobileNav"></i>
     <!-- Desktop Nav -->
