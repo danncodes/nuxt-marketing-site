@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col justify-center items-center shadow hover:shadow-lg hover:-translate-y-1 w-full max-w-xs rounded-md h-40 my-4 duration-500 bg-[#FAFAFA] hover:bg-theme-primary hover:text-white border border-[#EFEFEF] text-theme-primary" @mouseenter="addStoke" @mouseleave="removeStroke">
+  <section class="flex flex-col justify-center items-center shadow hover:shadow-xl hover:-translate-y-1 w-full max-w-xs rounded-md h-40 my-4 duration-500 bg-white hover:bg-theme-primary hover:text-white border-2 border-[#EFEFEF] text-theme-primary" @mouseenter="addStoke" @mouseleave="removeStroke">
     <div class="mb-3 flex items-center justify-center p-1">
         <svg ref="svg" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M24 30C27.3137 30 30 27.3137 30 24C30 20.6863 27.3137 18 24 18C20.6863 18 18 20.6863 18 24C18 27.3137 20.6863 30 24 30Z" stroke="#23A6F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
