@@ -15,17 +15,21 @@ export default {
     props: ["text"],
     methods: {
         addStoke(){
+            const svg = this.$refs.svg
             const pathOne = this.$refs.svg.children[0]
             const pathTwo = this.$refs.svg.children[1]
+            svg.classList.add("svg")
             pathOne.classList.add("hover")
             pathTwo.classList.add("hover")
 
         },
         removeStroke(){
+            const svg = this.$refs.svg
             const pathOne = this.$refs.svg.children[0]
             const pathTwo = this.$refs.svg.children[1]
             pathOne.classList.remove("hover")
             pathTwo.classList.remove("hover")
+            svg.classList.remove("svg")
         }
     }
 
@@ -37,5 +41,13 @@ export default {
 .hover{
     stroke: white;
 }
+
+.svg{
+    transition: all 3s ease-in-out;
+}
+
+section:hover div .svg {
+    transform: rotate(720deg);
+  }
 
 </style>
